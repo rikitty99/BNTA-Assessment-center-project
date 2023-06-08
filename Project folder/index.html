@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"  href="./styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="/Project folder/function darkFunction() { /dark_mode.js"></script>
+</head>
+<body>
+    <header>
+    <!-- Angel! -->
+    <ul>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#menu">Our menu</a></li>
+        <li><a href="#contact">Contact us</a></li>
+        <li><a href="#search">Search</a></li>
+      </ul>
+      <label for="darkmode">Click the button to switch to dark mode</label>
+      <button onclick="darkFunction()" id="darkmode">Dark mode</button>
+
+    <!-- Angel! -->
+
+    </header>
+
+    <main>
+
+    <!-- Riki! -->
+    <section>
+        <div class="nandopic">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/nandos-menu-ranking-review-delish-uk-1645714590.jpg" alt="Herocard" id="Herocard"/> </div>
+        <div class=intro>
+        <h1 class="title"> Welcome to Nandos! </h1>
+        <h5 class="slogan">Eat PERi-PERi, earn PERi-PERi! </h5>
+        </div>
+      </section>
+      <br>
+      
+      
+      <section class="products">
+        <h4 class="minititle"> Our best sellers</h4>
+        <div class="bestsellers">
+        <img src="https://www.thehalalfoodshop.com/cdn/shop/products/6003770006849.jpg?v=1595201412" class="sauce sone" alt="Medium Sauce"/>
+        <img src="https://cdn.shopify.com/s/files/1/2225/0941/products/237113_1400x.jpg?v=1642508376" class="sauce stwo" alt="Hot Sauce"/>
+        <img src="https://i.ebayimg.com/images/g/K4YAAOSwOApiGcHN/s-l1600.jpg" class="sauce sthree" alt="Perinase Sauce"/>
+       
+        
+      
+        <div class="Amount choice1"> 
+          <button type="button"> -</button>
+          <input type="text" name="lname" value="1" style="width: 10px;" />
+          <button type="button"> +</button>     
+        </div>
+        
+          <div class="Amount choice2">  
+          <button type="button"> -</button>
+          <input type="text" name="lname" value="1" style="width: 10px;" />
+          <button type="button"> +</button>
+            </div> 
+          
+          <div class="Amount choice3"> 
+          <button type="button"> -</button>
+          <input type="text" name="lname" value="1" style="width: 10px;" />
+          <button type="button"> +</button>     
+        </div>
+          
+       </div>
+      </section>
+      
+        
+    
+    <!-- Jannah! -->
+    <section class="booking-form">
+        <form action="submission.html" method="POST">
+            <h1>Bookings</h1>
+        <section class="contact details">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name">
+            <br>
+            <label for="Address">Address:</label>
+            <input type="text" name="Address" id="Address" autocomplete="on">
+            <br>
+        </section>
+        <section class="booking-Date">
+            <label for="Date">When would you like to book?</label>
+            <input type="date" id="Date" name="Date">
+            <br>
+        </section>
+        <section class="people">
+            <label for="amount">How many people will be attending?</label>
+            <input type="number" name="amount" id="amount">
+          </section>
+        </form>
+        <section class="dietary-Requirements">
+        <form action="input" action="random.html" method="GET">
+                <label for="dropdown1">Do you have any dietary requirements?</label>
+                <select name="requirements" onchange="checkIfOther();" id="dropdown1">
+                    <option value="halal">Halal</option>
+                    <option value="kosher">Kosher</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="gluten-free">Gluten free</option>
+                    <option value="lactose-free">Lactose free</option>
+                    <option value="other">Other</option>
+                </select>
+        
+            <div id="other" style="display:none">
+                <label>Please specify:</label><input type="text" id="otherText"/>
+            </div>
+        <script>
+        function checkIfOther(){
+        
+            a = document.getElementById("dropdown1");        
+        
+            if(a.value == "other")           
+        
+                document.getElementById("other").setAttribute("style","display:inline");
+        
+            else
+        
+                document.getElementById("other").setAttribute("style","display:none");
+        
+        
+            }
+        
+        </script>
+        </form>
+        </section>
+        <section class="commentextra">
+        <label for="comments">Any extra comments:<label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="20" placeholder="Let us know about special occasions" required></textarea>
+              <br>
+        <input type="submit" name="submit" value="Form My Story!">
+        <input type="submit" value="Submit">
+        <br>
+        </section>
+        
+        <section class="youtubevideo">
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/ofZ6KmUIjhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            Video not supported
+          </iframe>
+        </section>
+    <!-- Jannah! -->
+
+
+    </main>
+</body>
+
+<footer>
+    <!-- Mikey! -->
+    <h2>Stay Connected</h2>
+    <nav>
+        <ul class="list1">
+            <li style="display:inline"><a href="http://www.google.com">Stores near me</a></li>
+            <li style="display:inline"><a href="http://www.google.com">Contact us</a></li>
+            <li style="display:inline"><a href="http://www.google.com">Privacy Policy</a></li>
+            <li style="display:inline"><a href="http://www.google.com">FAQs</a></li>
+        </ul>
+        <ul class="list2">
+            <li style="display:inline"><button class="btn"><i class="bi bi-instagram"></i></li></button>
+            <li style="display:inline"><button class="btn"><i class="bi bi-twitter"></i></li></button>
+            <li style="display:inline"><button class="btn"><i class="bi bi-facebook"></i></li></button>
+            <li style="display:inline"><button class="btn"><i class="bi bi-envelope"></i></li></button>
+        </ul>
+    </nav>
+    <p>&#169; Nando's 2023</p>
+</footer>
+    <!-- Mikey! -->
+
+    
+    
+
+
+</html>

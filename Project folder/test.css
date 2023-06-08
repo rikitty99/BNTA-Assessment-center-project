@@ -1,0 +1,16 @@
+@font-face{
+    font-family: mynormal;
+    src:url(DIN\ Regular.ttf)
+}
+@font-face{
+    font-family: nandos;
+    src:url(Nandos-Regular.ttf);
+}
+h1{
+    font-family: nandos;
+    color:red;
+}
+p{
+    font-family: mynormal;
+    color:brown;
+}

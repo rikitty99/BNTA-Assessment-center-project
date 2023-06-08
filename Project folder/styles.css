@@ -1,0 +1,191 @@
+/* dont touch for styling entire page */
+@font-face{
+  font-family: mynormal;
+  src:url(DIN\ Regular.ttf)
+}
+@font-face{
+  font-family: nandos;
+  src:url(Nandos-Regular.ttf);
+}
+body{
+  background-image:url(BG.jpg);
+  background-repeat:repeat;
+  
+}
+/* Angel! */
+ul {    /* Standard code for the unordered list*/
+    list-style-type: none;  /* Eliminate the bullet points */
+    margin: 0;              /*Specify the margin and padding*/
+    padding: 0;
+  }
+  
+  li { /* Float the <li> elements */
+    float: left;            /*Get block elements to float next to each other*/
+  }
+  
+  a { /* Specify a layout for the navigation links */
+    display: block;                   /* Make the whole link area clickable and allow to specify the padding for the links*/
+    padding: 8px;                     /* Specify some padding between each <a> element */
+    background-color: burlywood;        /* Add a brown background-colour to each <a> element */
+    color: green;                   /* Specify the colour of the text*/
+    border: 1px solid brown;        /* Create a border for each element */
+  }
+  
+  
+  a:hover { /* Change the link colour on hover */
+    background-color: grey;
+  }
+
+  .dark {   /* Change the colour for the dar mode */
+    background-color: black;
+    color: white;
+  }
+
+/* Angel end! */
+
+/* Riki! */
+#Herocard{
+  width:70%;
+  height:30em;
+}
+.nandopic{
+  position: relative;
+  z-index: 1;
+  opacity: ;
+  margin: auto;
+  text-align:center;
+}
+.intro{
+  position: absolute; 
+  z-index: 2;
+  top: 4em;
+  left: 10em;
+  font-size:50px; 
+  color: white;
+}
+.title{
+  text-shadow: 1px 0 10px black;
+  font-family:nandos;
+}
+.slogan{
+  margin-top:-2em;
+  margin-left:2em;
+ text-shadow: 1px 0 10px black;
+ font-family:nandos;
+}
+.products{
+  margin: auto;
+  justfiy-content: center;
+  text-align: center;
+  border:1px solid black; 
+  display: block;
+}
+
+.minititle{
+  font-size:20px;
+  color: red;
+  font-style:italic;
+  text-decoration:wavy underline pink;
+  text-transform: capitalize;
+}
+
+.bestsellers{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  border: 1px solid black;
+}
+.sauce{
+  width:150px;
+  border: 1px dashed red;
+  padding: 5px;
+  margin-right:10px;
+}
+
+.sone{
+  grid-column: 1;
+  grid-row: 1;
+  border: 1px solid black;
+  margin-left:30em;
+}
+.stwo{
+  grid-column: 2;
+  grid-row: 1;
+  border: 1px solid black;
+}
+.sthree{
+  grid-column: 3;
+  grid-row: 1;
+  border: 1px solid black;
+  margin-right:30em;
+}
+
+.choice1{
+  width:100px;
+  margin:10px;
+  grid-column: 1;
+  grid-row: 2;
+  border: 1px solid black;
+  margin-left:32em;
+}
+.choice2{
+  width:100px;
+  margin:10px;
+  grid-column: 2;
+  grid-row: 2;
+  border: 1px solid black;
+  margin-left:2em;
+}
+
+.choice3{
+  width:100px;
+  margin:10px;
+  grid-column: 3;
+  grid-row:2;
+  border: 1px solid black;
+  margin-left:2em;
+}
+/* Riki end! */
+
+/* Jannah! */
+.booking-form {font-family: nandos;
+  text-align: center;
+  padding: 3px;
+  color: black;}
+.booking-date{font-family: nandos;
+  text-align: center;
+  padding: 3px;
+  color: black;}
+.people {font-family: nandos;
+  text-align: center;
+  padding: 3px;
+  color: black;}
+.dietary-Requirements{font-family: nandos;
+  text-align: center;
+  padding: 3px;
+  color: black;}
+.commentextra{font-family: nandos;
+  text-align: center;
+  padding: 3px;
+  color: black;}
+
+/* Jannh end! */
+
+/* Mikey! */
+footer {
+    font-family: nandos;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(233, 185, 122);
+    color: black;
+  }
+
+.list1 a{
+    padding: 50px;
+}
+
+.list2 i{
+    padding: 10px
+}
+
+/* Mikey end! */
